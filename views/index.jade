@@ -1,0 +1,93 @@
+extends layout
+
+block content
+    .row-fluid
+        .span12#box
+            .row.inbox#box_disp
+                .row.inbox#box_lcd
+                    .span6
+                        canvas.lcd#canvasLCD1
+                    .span6
+                        canvas.lcd#canvasLCD2
+                            
+                .row.inbox#box_eq
+                    .span6
+                        .viz#viz1
+                    .span6
+                        .viz#viz2
+
+            .row.inbox#box_mixer
+                .span2
+                    p 3D-PAN 
+                    div.sl#panner1Y
+                    p.disptext#panner1Y_display 0
+                    div.sl#panner1X
+                    p.disptext#panner1X_display 0
+                .span1
+                    p SPD
+                    div.sl#playspeed_slider1
+                    p.disptext#playspeed_display1 1
+                .span1
+                    p HPF
+                    div.sl#highpass1
+                    p.disptext#highpass_display1 0
+                .span1
+                    p LPF 
+                    div.sl#lowpass1
+                    p.disptext#lowpass_display1 30000
+                .span1
+                    p VOL 
+                    div.sl#playvolume_slider1
+                    p.disptext#playvolume_display1 1
+                .span1#volB
+                    p VOL
+                    div.sl#playvolume_slider2
+                    p.disptext#playvolume_display2 1
+                .span1
+                    p LPF
+                    div.sl#lowpass2
+                    p.disptext#lowpass_display2 30000
+                .span1
+                    p HPF
+                    div.sl#highpass2
+                    p.disptext#highpass_display2 0
+                .span1
+                    p SPD
+                    div.sl#playspeed_slider2
+                    p.disptext#playspeed_display2 1
+                .span2
+                    p 3D-PAN 
+                    div.sl#panner2Y
+                    p.disptext#panner2Y_display 0
+                    div.sl#panner2X
+                    p.disptext#panner2X_display 0
+
+ 
+            .row.inbox#box_play
+                .span4#box_play1
+                    ul.navi
+                        li(style="display:none")
+                            input#input_file_track1(type="file", accept="*")
+                        li.navi_small
+                            a.icon_home(href="#")#button_open_track1 Load
+                        li.navi_small
+                            a.icon_location(href="#")#stop1 Stop
+                        li
+                            a.icon_home(href="#")#play1 Play
+                .span4
+                    .inbox#box_crossfader
+                        .sl#crossfader 
+                    p#crossfader_display 0
+
+                .span4#box_play2
+                    ul.navi
+                        li
+                            a.icon_home#play2(href="#") Play
+                        li.navi_small
+                            a.icon_location#stop2(href="#") Stop
+                        li.navi_small
+                            a.icon_home(href="#")#button_open_track2 Load
+                        li(style="display:none")
+                            input#input_file_track2(type="file", accept="*")
+
+
