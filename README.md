@@ -33,8 +33,7 @@ You can use BrowserDJ as an offline web application or Node.js application.
 
         $ node app.js
 
-4. Open `http://localhost:3000`.
-
+4. Open the `http://localhost:3000`.
 
 
 ## Usage
@@ -48,9 +47,7 @@ You can use BrowserDJ as an offline web application or Node.js application.
 
 ## TODO
 
-Because BrowserDJ is just a sample application for the WebAudio API, it provides very limited functionality compared to other PCDJ software. 
-
-There are a lot of tasks we have to do. 
+BrowserDJ is just a sample application for WebAudio API. Currentry, this software provides very limited functionality compared to other PCDJ software. 
 
 - Hi-Mid-Low EQ.
 
@@ -60,11 +57,7 @@ There are a lot of tasks we have to do.
 
 - Error handling
 
-- Testing
-
-- Bug fixing
-
-- Multi-user online play using websocket
+- Test
 
 
 
