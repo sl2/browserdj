@@ -45,21 +45,6 @@ You can use BrowserDJ as an offline web application or Node.js application.
 3. Click a "Play" button.
 
 
-## TODO
-
-BrowserDJ is just a sample application for WebAudio API. Currentry, this software provides very limited functionality compared to other PCDJ software. 
-
-- Hi-Mid-Low EQ.
-
-- Effects
-
-- Peformance improvement
-
-- Error handling
-
-- Test
-
-
 
 ## License
 

@@ -131,6 +131,7 @@ $(function(){
     }
 
     function play1() {
+        
         var startTime = context.currentTime + 0.100;
         var rt = playSound(buffer1, startTime);
 
@@ -159,6 +160,7 @@ $(function(){
     }
 
     function play2() {
+
         var startTime = context.currentTime + 0.100;
         var rt = playSound(buffer2, startTime);
 
@@ -295,20 +297,45 @@ $(function(){
         load_local_file(2); 
     });
 
+
+    var State;
+    (function(){
+      var instance;
+      State = function State(){
+          if (instance){
+              return instance;
+          }
+          instance = this;
+
+          //if track is playing then true;
+          this.track1_play = false;
+          this.track2_play = false;
+      };
+    }());
+
+
     $('#play1').click(function(){
-        play1();
+        if (!State.track1_play){
+            play1();
+            State.track1_play = true;
+        }
     });
     
     $('#stop1').click(function(){
         stop1();
+        State.track1_play = false;
     });
 
     $('#play2').click(function(){
-        play2();
+        if (!State.track2_play){
+            play2();
+            State.track2_play = true;
+        }
     });
 
     $('#stop2').click(function(){
         stop2();
+        State.track2_play = false;
     });
 
     //Slider
