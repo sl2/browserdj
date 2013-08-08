@@ -2,6 +2,8 @@
 
 The BrowserDJ is an open-source web browser DJ mixer.
 
+[Browser DJ Mixer @ heroku](http://browserdj.herokuapp.com/#)
+
 ![Screeb](./assets/screen.png)
 ## Installation
 
