@@ -2,6 +2,6 @@
 
 'use strict';
 
-var browserdj = require('../lib/app.js');
+var browserdj = require('../app.js');
 
 

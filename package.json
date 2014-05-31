@@ -1,6 +1,6 @@
 {
   "name": "browserdj",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "private": false,
   "scripts": {
     "start": "node app"
@@ -8,7 +8,7 @@
   "preferGlobal": true,
   "bin": {
     "browserdj": "bin/browserdj.js"
-  }
+  },
   "dependencies": {
     "express": "3.3.4",
     "jade": "0.26.0"
