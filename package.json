@@ -6,7 +6,7 @@
     "start": "node app"
   },
   "dependencies": {
-    "express": "*",
+    "express": "3.4.0",
     "jade": "*"
   },
   "description": "The BrowserDJ is an open-source web browser DJ mixer.",
