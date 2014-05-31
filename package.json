@@ -1,15 +1,15 @@
 {
   "name": "browserdj",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": false,
   "scripts": {
     "start": "node app"
   },
   "dependencies": {
-    "express": "3.4.0",
-    "jade": "*"
+    "express": "3.3.4",
+    "jade": "0.26.0"
   },
-  "description": "The BrowserDJ is an open-source web browser DJ mixer.",
+  "description": "DJ mixer for web browser",
   "main": "app.js",
   "repository": {
     "type": "git",
@@ -17,6 +17,9 @@
   },
   "keywords": [
     "webaudio",
+    "audio",
+    "mixer",
+    "dtm",
     "dj"
   ],
   "author": "sl2",
