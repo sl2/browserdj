@@ -1,12 +1,28 @@
 {
-  "name": "application-name",
-  "version": "0.0.1",
-  "private": true,
+  "name": "browserdj",
+  "version": "1.0.0",
+  "private": false,
   "scripts": {
     "start": "node app"
   },
   "dependencies": {
     "express": "*",
     "jade": "*"
-  }
+  },
+  "description": "The BrowserDJ is an open-source web browser DJ mixer.",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sl2/browserdj"
+  },
+  "keywords": [
+    "webaudio",
+    "dj"
+  ],
+  "author": "sl2",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sl2/browserdj/issues"
+  },
+  "homepage": "https://github.com/sl2/browserdj"
 }
