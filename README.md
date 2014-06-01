@@ -1,56 +1,32 @@
-# BrowserDJ - A Web Browser DJ Mixer
+# BrowserDJ
 
-The BrowserDJ is an open-source web browser DJ mixer.
+DJ Mixer for a web browser. 
 
-[Browser DJ Mixer @ heroku](http://browserdj.herokuapp.com/#)
+This is an offline application. You can play DJ without uploading a music.
 
-![Screeb](./assets/screen.png)
 ## Installation
 
-You can use BrowserDJ as an offline web application or Node.js application.
+	npm install -g browserdj
 
-### Offline web application
+## Getting Started
 
-1. Download BrowserDJ at the terminal:
+1. Execute a command.
 
-        $ git clone https://github.com/sodesign/browserdj
+		browserdj
 
-2. Open the `public/index.html` file and you will see the UI:
+2. Go to a [http://localhost:3000](http://localhost:3000).
 
-        $ open browserdj/public/index.html
+## Screenshot
 
+![Screeb](./assets/screen.png)
 
-### Node.js web application
+## Heroku hosting
 
-1. Download BrowserDJ at the terminal:
-
-        $ git clone https://github.com/sodesign/browserdj
-
-2. Install npm package:
-
-        $ cd browserdj
-        $ npm install
-
-3. Start node.js application:
-
-        $ node app.js
-
-4. Open the `http://localhost:3000`.
-
-
-## Usage
-
-1. Click a "Load" button.
-
-2. Select your local music file in the file dialog.  (e.g. mp3, .m4u)
-
-3. Click a "Play" button.
-
-
+[Browser DJ Mixer at Heroku](http://browserdj.herokuapp.com/#)
 
 ## License
 
-BrowserDJ is released under the [MIT](http://opensource.org/licenses/MIT) license.
+[MIT](http://opensource.org/licenses/MIT) license.
 
 
 
