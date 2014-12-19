@@ -4,7 +4,7 @@ $(function(){
         try {
             var context = new window.AudioContext();
         } catch(e) {
-            alert('This browser does not support WebAudio API.');
+            alert('Please use a browser which supports AudioContext() of WebAudio API');
         }
     })();
 
