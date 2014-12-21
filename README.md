@@ -1,8 +1,12 @@
 # BrowserDJ
 
-DJ Mixer for a web browser. 
+DJ Mixer is wrritten in JavaScript. 
 
-This is an offline application. You can play DJ without uploading a music.
+## Environment
+
+- Web Browser which supports WebAudio API's AudioContext().
+    - Google Chrome (Recommended)
+    - Mozilla Firefox
 
 ## Installation
 
@@ -10,11 +14,21 @@ This is an offline application. You can play DJ without uploading a music.
 
 ## Getting Started
 
+### Nodeljs
+
 1. Execute a command.
 
-		browserdj
+        browserdj
 
 2. Go to a [http://localhost:3000](http://localhost:3000).
+
+### Pure Javascript and HTML
+
+1. Compile.
+
+        ./compile.sh
+
+2. Open index.html in the `public` directory.
 
 ## Screenshot
 
@@ -22,7 +36,7 @@ This is an offline application. You can play DJ without uploading a music.
 
 ## Heroku hosting
 
-[Browser DJ Mixer at Heroku](http://browserdj.herokuapp.com/#)
+[Browser DJ Mixer at Heroku](http://browserdj.herokuapp.com/#) : old version
 
 ## License
 
