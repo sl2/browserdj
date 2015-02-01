@@ -1,10 +1,10 @@
 # BrowserDJ
 
-DJ Mixer is wrritten in JavaScript. 
+DJ Mixer for a Web Browser.
 
 ## Environment
 
-- Web Browser which supports WebAudio API's AudioContext().
+- Supported Browser:
     - Google Chrome (Recommended)
     - Mozilla Firefox
 
@@ -14,7 +14,7 @@ DJ Mixer is wrritten in JavaScript.
 
 ## Getting Started
 
-### Nodeljs
+### Node.js
 
 1. Execute a command.
 
@@ -22,7 +22,7 @@ DJ Mixer is wrritten in JavaScript.
 
 2. Go to a [http://localhost:3000](http://localhost:3000).
 
-### Pure Javascript and HTML
+### Javascript and HTML
 
 1. Compile.
 
